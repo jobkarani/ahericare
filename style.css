@@ -1,0 +1,48 @@
+body,html{
+background-color: #E5E3DD;
+overflow-X: hidden;
+overflow-y: auto;
+margin: 0;
+padding: 0;
+}
+.nav{
+    border-bottom: 2px solid #811750;
+    background-color: #c4c2bc;
+}
+img{
+    margin-right: 20%;
+    width: 80%;
+    height: 90%;
+}
+.nav-item{
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+.nav-link{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+color: #811750;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.one:hover{
+    background-color: #811750;
+    border-radius: 10px;
+}
+.one>a:hover{
+    color: #fff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.one{
+    margin-bottom: 8%;
+    margin-top: 5%;
+}
+.background{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1439px;
+    height: 865px;
+    background-image: url("https://www.ahericare.com/images/72389f347addcc9d030e6043852dc4fd.jpg");
+}
