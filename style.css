@@ -49,14 +49,18 @@ img{
     background-image: url("https://www.ahericare.com/images/72389f347addcc9d030e6043852dc4fd.jpg");
 }
 .para{
-    padding-top: 45%;
-    padding-left: 3%;
+    padding-top: 15%;
+    padding-left: 35%;
 }
 .pink{
     color: #811750;
+    font-weight: 900;
+    font-size: xx-large;
 }
 .magenta{
     color: #132540;
+    font-size: x-large;
+    font-weight: 600;
 }
 .consult{
     color: #fff;
