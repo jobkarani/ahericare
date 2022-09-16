@@ -10,6 +10,7 @@ body,html{
     background-color: #c4c2bc;
     padding: 0%;
     margin: 0%;
+    /* box-shadow: 0px 20px 20px #132540; */
 }
 img{
     margin-right: 20%;
@@ -46,4 +47,21 @@ img{
     width: 1439px;
     height: 865px;
     background-image: url("https://www.ahericare.com/images/72389f347addcc9d030e6043852dc4fd.jpg");
+}
+.para{
+    padding-top: 45%;
+    padding-left: 3%;
+}
+.pink{
+    color: #811750;
+}
+.magenta{
+    color: #132540;
+}
+.consult{
+    color: #fff;
+    background-color: #811750;
+    border-radius: 20px;
+    padding: 1%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
