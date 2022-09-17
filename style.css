@@ -138,3 +138,28 @@ img{
 .rig:hover{
     box-shadow: none;
 }
+/* end of service page  */
+
+/* about page  */
+
+.about{
+    border: 2px solid #fff;
+    background-color: #fff;
+    opacity: 0.9;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;   
+    border-radius: 10% 10% 10% 10%;
+    padding: 3%;
+}
+
+.pam{
+    font-size: xx-large;
+    font-weight: 800;
+    color: #811750;
+}
+.bod{
+    font-size: larger;
+    font-weight: 600;
+    color: #132540;
+}
