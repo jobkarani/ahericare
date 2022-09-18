@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow-x: hidden !important;
   }
 body,html{
     background-color: #E5E3DD;
@@ -136,6 +135,7 @@ li {
     .about{
         margin-top: 4rem;  
     }
+    
     .menu-header{
       display: block;
       position: fixed;
@@ -211,6 +211,15 @@ li {
     padding-top: 10%;
     padding-left: 35%;
 }
+@media only screen and (max-width: 450px) {
+    .para{
+        padding-left: 5%;
+        padding-top: 3%;
+    }
+    .background{
+        height: 60vh;
+    }
+}
 .pink{
     color: #811750;
     font-weight: 900;
@@ -230,6 +239,8 @@ li {
 }
 .call{
     color: #132540;
+    font-size: xx-large;
+    font-weight: 800;
 }
 .tell{
     color: #fff;
