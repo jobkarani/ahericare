@@ -148,7 +148,7 @@ img{
     opacity: 0.9;
     margin-left: 20%;
     margin-right: 20%;
-    margin-top: 10%;   
+    margin-top: 3%;   
     border-radius: 10% 10% 10% 10%;
     padding: 3%;
 }
@@ -202,3 +202,67 @@ img{
   }
   }
   /* end contact us */
+
+  /* start of footer  */
+  footer {
+    border-top: 1px solid #d3d5d9;
+    padding-bottom: 2rem !important;
+    margin-top: 2%;
+    background-color: #fff;
+  }
+  
+   ul{
+    text-decoration: none;
+    list-style-type: none;
+  }
+  .footer__title{
+    text-align: center;
+    font-weight: 900;
+    font-size: 17px;
+    color: #811750;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-left: 15px;
+    padding-left: 15px;
+  }
+  .footer__grp{
+    display: block;
+    align-items: start;
+  }
+  footer li a {
+    font-size: large;
+    color: #132540;
+    font-weight: 400;
+  }
+  .SOCIAL{
+    margin-top: 1rem;
+  }
+  .icons a{
+    margin: 0px 5px;
+  }
+  footer .row{
+    text-align: center;
+  }
+  @media only screen and (max-width: 993px){
+    .serviceBox2{
+      padding: 1rem .5rem;
+      margin-left: 1rem;
+    }
+    .serviceBox4{
+      padding: 1rem .5rem;
+      margin-left: 1rem;
+    }
+    .services {
+      margin: 1rem 1rem;
+    }
+    .leftSection .text{
+      margin-top: 3rem;
+    }
+    .lazyloaded {
+      margin: .5rem 4rem;
+    }
+    .footer__grp{
+      float: none;
+    }
+  }
+  /* end of footer  */
