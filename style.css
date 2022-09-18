@@ -411,13 +411,22 @@ li {
 
 /* start contact us */
 
-.contactInfo{
-    background-color: #383b44;
-    justify-content: flex-end;
-    padding: 6rem 2rem;
-    align-items: center;
-    color: white;
-  }
+@media only screen and (max-width: 450px) {
+    .contact .flex{
+        display: inline;
+    }
+    .contact .flex .contactForm{
+        margin-top: 5%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .contact .flex .contactForm .param .row .form-control{
+        margin-top: 5%;
+    } 
+}
+.flex{
+    display: flex;
+}
   .contactForm{
     padding: 0 5rem;
   }
