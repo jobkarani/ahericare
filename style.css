@@ -270,6 +270,36 @@ li {
     box-shadow: 0px 10px 10px #811750;
     border-radius: 20px 0px;
 }
+@media only screen and (max-width: 450px) {
+    .head{
+        font-size: small;
+        padding: 5%;
+    }
+    .serv .h5{
+        font-size: larger;
+        font-weight: 900;
+    }
+    .comm{
+        padding: 5%;
+    }
+    .comm .pant{
+        display: inline;
+    }
+    .comm .pant .left{
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .comm .pant .left img{
+        box-shadow: none;
+    }
+    .comm .pant .lef{
+        width: 100%;
+        margin-top: 5%;
+    }
+    .comm .pant .lef img{
+        box-shadow: none;
+    }
+}
 .h4{
     font-weight: 900;
 }
