@@ -496,7 +496,11 @@ body,html{
     font-weight: 500;
   }
   footer li a:hover{
-    color: #fff;
+    color: #c4c2bc;
+    text-decoration: none;
+  }
+  .footer__title:hover{
+    color: #811750;
     text-decoration: none;
   }
   .SOCIAL{
