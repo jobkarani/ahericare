@@ -13,11 +13,8 @@ body,html{
 
 /* start of navbar  */
 
-li {
-    list-style: none;
-  }
-  a {
-    text-decoration: none;
+  .navbars ul{
+    list-style-type: none;
   }
   span {
     color: white;
@@ -149,7 +146,7 @@ li {
       padding-top: 10%;
       padding-bottom: 10%;
       flex-direction: column;
-      background-color: rgba(164, 144, 144, 0.8);
+      background-color: rgba(132, 122, 122, 0.8);
       width: 100%;
       border-radius: 10px;
       text-align: center;
@@ -160,14 +157,14 @@ li {
     .nav-menu{
       display: none;
     }
-    .nav-links {
+    .nav-link {
       font-size: 1.6rem;
       font-weight: 400;
-      color: #fff;
+      color: #811750;
     }
     
     .nav-links:hover {
-      color: #811750;
+      color: #fff;
     }
     
       .nav-menus.active {
@@ -298,6 +295,12 @@ li {
     }
     .comm .pant .lef img{
         box-shadow: none;
+    }
+    .comm .pant .right {
+        padding-left: 15%;
+    }
+    .comm .pant .rig {
+        padding-left: 15%;
     }
 }
 .h4{
@@ -448,16 +451,12 @@ li {
   .us{
     color: #811750;
     margin-top: 2%;
-    /* margin-bottom: 2%; */
   }
   .submit{
     background-color: #811750;
     color: #fff;
   }
   @media screen and (max-width: 1366px){
-    /* .contactUs {
-      display: block;
-  } */
   .contactForm{
     margin-top: 5%;
     margin-bottom: 5%;
@@ -473,7 +472,7 @@ li {
     background-color: #DAEAF1;
   }
   
-   ul{
+   footer .container-fluid .row .footer__grp ul{
     text-decoration: none;
     list-style-type: none;
   }
