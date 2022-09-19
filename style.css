@@ -274,6 +274,7 @@ body,html{
   .we{
     margin-left: 5%;
     margin-right: 5%;
+    padding-bottom: 3%;
   }
   .we ul li {
     margin-top: 5%;
@@ -321,6 +322,46 @@ body,html{
   box-shadow: 8px 8px #132540;
   font-weight: 500;
 }
+@media only screen and (max-width: 450px) {
+  .service{
+    padding-bottom: 5%;
+  }
+  .vice{
+    color: #811750;
+    margin-top: 5%;
+  }
+  .direction{
+    display: inline;
+  }
+  .east, .west{
+    background-color: inherit;
+    padding: 2%;
+    width: 100%;
+    border-radius: 0px 30px;
+  }
+  .west{
+    margin-top: -7%;
+  }
+  .east ul li, .west ul li{
+    border: 2px solid #fff;
+    padding: 3%;
+    margin-top: 3%;
+    background-color: #DAEAF1;
+    box-shadow: -5px 5px #132540;
+    border-radius: 20px 0px;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  .seemore{
+    margin-bottom: 2%;
+    background-color: #811750;
+    color: #fff;
+    padding: 3%;
+    box-shadow: 8px 8px #132540;
+    font-weight: 500;
+    font-size: larger;
+  }
+}
 /* end of home page  */
 
 /* swiperjs  */
@@ -346,7 +387,6 @@ body,html{
   .testimonials{
     background: #132540;
     padding: 2rem;
-    margin-top: 15%;
   }
   .carousel{
     max-width: 1200px;
