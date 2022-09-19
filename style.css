@@ -568,7 +568,7 @@ body,html{
 .about{
     margin-left: 20%;
     margin-right: 20%;
-    margin-top: 3%;   
+    /* margin-top: 3%;    */
     border-radius: 0px 20px;
     padding: 3%;
 }
@@ -636,6 +636,28 @@ body,html{
   font-size: larger;
   font-weight: 400;
 }
+@media only screen and (max-width: 450px) {
+  .whychoose{
+    display: inline;
+    margin-top: 2%;
+  }
+  .whychoose .east, .whychoose .west{
+    padding: 10%;
+  }
+  .whychoose .east {
+    border: 1px solid #fff;
+    box-shadow: none;
+    background-color: #c4c2bc;
+  }
+  .whychoose .west{
+    background-color: #132540;
+    border: 1px solid #fff;
+    box-shadow: none;
+  }
+}
+hr{
+  box-shadow: 0px 5px #DAEAF1;
+}
 .care{
   color: #811750;
 }
@@ -657,6 +679,28 @@ body,html{
 }
 .desc{
   margin-top: 5%;
+}
+@media only screen and (max-width: 450px) {
+  .care{
+    color: #811750;
+    font-size: x-large;
+  }
+  .three{
+    display: inline;
+    padding-top: 2%;
+  }
+  .four, .five, .six{
+    background-color: #c4c2bc;
+    padding: 5%;
+    margin: 10%;
+    border: 1px solid #fff;
+    box-shadow: 10px 10px #fff;
+    border-radius: 10px;
+  }
+  .will{
+    color: #811750;
+    margin-top: 5%;
+  }
 }
 /* end of about  */
 
