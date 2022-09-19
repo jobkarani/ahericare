@@ -74,7 +74,6 @@ body,html{
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
     .one:hover{
-        /* background-color: #811750; */
         border: 1px solid #fff;
         border-radius: 10px;
         padding-left: 1%;
@@ -160,11 +159,11 @@ body,html{
     .nav-link {
       font-size: 1.6rem;
       font-weight: 400;
-      color: #811750;
+      color: #fff;
     }
     
-    .nav-links:hover {
-      color: #fff;
+    .nav-link:hover {
+      color: #811750;
     }
     
       .nav-menus.active {
@@ -270,7 +269,105 @@ body,html{
   background-color: #fff;
   box-shadow: 5px 5px #132540;
 }
+@media only screen and (max-width: 450px) {
+  .we{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .we ul li {
+    margin-top: 5%;
+    border: 1px solid #132540;
+    padding: 1%;
+    background-color: #fff;
+    box-shadow: 10px 10px #132540;
+    font-size: small;
+  }
+}
 /* end of home page  */
+
+/* swiperjs  */
+.testimonials{
+  background: #132540;
+  padding: 2rem;
+  margin-top: 5%;
+}
+.testimonials h1{
+  color: #fff;
+  margin: 1%;
+}
+.wrapper{
+  width: 100%;
+}
+.carousel{
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 30px;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+@media only screen and (max-width: 450px) {
+  .testimonials{
+    background: #132540;
+    padding: 2rem;
+    margin-top: 15%;
+  }
+  .carousel{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 30px;
+  }
+  .carousel .card {
+    color: #101010;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 20px 0;
+    font-size: small;
+    font-weight: 600;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+    background: #c4c2bc;
+  }
+  .carousel .card .quote{
+    margin-top: 10%;
+  }
+}
+.carousel .card{
+  color: #101010;
+  text-align: center;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin: 20px 0;
+  font-size: small;
+  font-weight: 600;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+  background: #c4c2bc;
+}
+.carousel .card:before {
+  content: '';
+  background: url(https://sp-ao.shortpixel.ai/client/q_lossless,ret_img/https://rapidaxis.com/wp-content/themes/rapidaxis/style/../images/quotes.png) no-repeat;
+  position: absolute;
+  font-size: 0;
+  right: 50px;
+  top: -15px;
+  width: 100%;
+  height: 100%;
+  background-position: 100% 0;
+}
+.carousel-inner{
+  position: relative;
+}
+.carousel__btn{
+  background-image: none;
+  top: auto;
+  bottom: 23px;
+  width: 45px;
+  height: 45px;
+  background: #037be8;
+  text-align: center;
+  line-height: 45px;
+}
+/* end of swipper  */
 
 /* start of services  */
 .head{
@@ -485,7 +582,6 @@ body,html{
   footer {
     border-top: 1px solid #d3d5d9;
     padding-bottom: 1% !important;
-    margin-top: 2%;
     background-color: #DAEAF1;
   }
   
