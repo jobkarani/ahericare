@@ -258,6 +258,7 @@ body,html{
 .we{
   margin-left: 20%;
   margin-right: 20%;
+  margin-bottom: 5%;
 }
 .we ul{
   list-style-type: none;
@@ -283,13 +284,49 @@ body,html{
     font-size: small;
   }
 }
+.service{
+  background-color: #fff;
+  padding-top: 2%;
+}
+.vice{
+  color: #811750;
+  margin-bottom: 3%;
+}
+.direction{
+  display: flex;
+  justify-content: space-evenly;
+}
+.east, .west{
+  background-color: #c4c2bc;
+  padding: 2%;
+  width: 35%;
+  border-radius: 0px 30px;
+}
+.east ul, .west ul{
+  list-style-type: none;
+}
+ .east ul li, .west ul li{
+  border: 2px solid #fff;
+  padding: 3%;
+  margin-top: 3%;
+  background-color: #DAEAF1;
+  box-shadow: -5px 5px #132540;
+  border-radius: 20px 0px;
+}
+.seemore{
+  margin-bottom: 2%;
+  background-color: #811750;
+  color: #fff;
+  padding: 1%;
+  box-shadow: 8px 8px #132540;
+  font-weight: 500;
+}
 /* end of home page  */
 
 /* swiperjs  */
 .testimonials{
   background: #132540;
   padding: 2rem;
-  margin-top: 5%;
 }
 .testimonials h1{
   color: #fff;
