@@ -253,6 +253,23 @@ body,html{
     background-color: #811750;
     box-shadow: 10px 10px #132540;
 }
+.h2{
+  color: #811750;
+}
+.we{
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.we ul{
+  list-style-type: none;
+}
+.we ul li {
+  margin-top: 2%;
+  border: 1px solid #132540;
+  padding: 1%;
+  background-color: #fff;
+  box-shadow: 5px 5px #132540;
+}
 /* end of home page  */
 
 /* start of services  */
