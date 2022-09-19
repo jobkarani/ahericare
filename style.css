@@ -319,7 +319,7 @@ body,html{
   background-color: #811750;
   color: #fff;
   padding: 1%;
-  box-shadow: 8px 8px #132540;
+  box-shadow: -8px 8px #132540;
   font-weight: 500;
 }
 @media only screen and (max-width: 450px) {
@@ -357,7 +357,7 @@ body,html{
     background-color: #811750;
     color: #fff;
     padding: 3%;
-    box-shadow: 8px 8px #132540;
+    box-shadow: -8px 8px #132540;
     font-weight: 500;
     font-size: larger;
   }
@@ -566,13 +566,10 @@ body,html{
 /* about page  */
 
 .about{
-    border: 2px solid #fff;
-    background-color: #fff;
-    opacity: 0.9;
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 3%;   
-    border-radius: 50px 50px;
+    border-radius: 0px 20px;
     padding: 3%;
 }
 @media only screen and (max-width: 450px) {
@@ -600,6 +597,66 @@ body,html{
     font-size: larger;
     font-weight: 600;
     color: #132540;
+}
+.whychoose{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2%;
+}
+.whychoose .east {
+  border: 1px solid #fff;
+  box-shadow: -10px 10px #132540;
+  background-color: #c4c2bc;
+}
+.whychoose .west{
+  background-color: #132540;
+  border: 1px solid #fff;
+  box-shadow: 10px 10px #c4c2bc;
+}
+.miss{
+  color: #811750;
+  text-shadow: 2px 2px #fff;
+  font-size: xx-large;
+  font-weight: 600;
+}
+.viss{
+  color: #811750;
+  text-shadow: 2px 2px #DAEAF1;
+  font-size: xx-large;
+  font-weight: 600;
+}
+
+.mission{
+  color: #132540;
+  font-size: larger;
+  font-weight: 400;
+}
+.vision{
+  color: #fff;
+  font-size: larger;
+  font-weight: 400;
+}
+.care{
+  color: #811750;
+}
+.three{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 2%;
+}
+.will{
+  color: #811750;
+}
+.four, .five, .six{
+  background-color: #c4c2bc;
+  padding: 2%;
+  margin: 1%;
+  border: 1px solid #fff;
+  box-shadow: 10px 10px #fff;
+  border-radius: 10px;
+}
+.desc{
+  margin-top: 5%;
 }
 /* end of about  */
 
