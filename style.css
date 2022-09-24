@@ -382,7 +382,7 @@ body,html{
    }
    .tell{
     font-size: small;
-    /* margin-bottom: -10%; */
+    box-shadow: 5px 5px #132540 !important;
    }
 }
 .pink{
