@@ -91,7 +91,7 @@ body,html{
     width: 100%;
   }
   .menu-header{
-    background: #c4c2bc;
+    background-color: #c4c2bc;
   }
   .nav-menu-logos{
     color: #811750;
@@ -196,25 +196,191 @@ body,html{
 /* end of navbar  */
 
 /* start of homepage  */
-.background{
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 1439px;
-    height: 865px;
-    background-image: url("https://www.ahericare.com/images/72389f347addcc9d030e6043852dc4fd.jpg");
+
+
+/* dsls;k;ldsk */
+
+.mySlides {display: none;}
+.fade>img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.background {
+  width: 10px;
+  font-size: 15px;
+  position: absolute;
+  left: -10%;
+  bottom: 30%;
+  margin-left: 40%; 
 }
 .para{
-    padding-top: 10%;
-    padding-left: 35%;
+  width: 40%;
+  padding-bottom: 5%;
+  padding-top: 2%;
+  padding-left: 10%;
+  position: relative;
+  border-radius: 15px ;
+  background: rgba(228, 224, 224, 0.5);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 1px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: rgba(166, 162, 162, 0.8);
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 6.5s;
+}
+
+@keyframes fade {
+  from {opacity: .9} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+/* ds,lsdkldksalk */
+
+/* swiperjs  */
+.testimonials{
+  background: #132540;
+  padding: 2rem;
+}
+.testimonials h1{
+  color: #fff;
+  margin: 1%;
+}
+.wrapper{
+  width: 100%;
+}
+.carousel{
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 30px;
+  margin-right: 20%;
+  margin-left: 20%;
 }
 @media only screen and (max-width: 450px) {
-    .para{
-        padding-left: 5%;
-        padding-top: 3%;
-    }
-    .background{
-        height: 60vh;
-    }
+  .testimonials{
+    background: #132540;
+    padding: 2rem;
+  }
+  .carousel{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 30px;
+  }
+  .carousel .card {
+    color: #101010;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 20px 0;
+    font-size: small;
+    font-weight: 600;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+    background: #c4c2bc;
+  }
+  .carousel .card .quote{
+    margin-top: 10%;
+  }
+}
+.carousel .card{
+  color: #101010;
+  text-align: center;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin: 20px 0;
+  font-size: small;
+  font-weight: 600;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+  background: #c4c2bc;
+}
+.carousel .card:before {
+  content: '';
+  background: url(https://sp-ao.shortpixel.ai/client/q_lossless,ret_img/https://rapidaxis.com/wp-content/themes/rapidaxis/style/../images/quotes.png) no-repeat;
+  position: absolute;
+  font-size: 0;
+  right: 50px;
+  top: -15px;
+  width: 100%;
+  height: 100%;
+  background-position: 100% 0;
+}
+.carousel-inner{
+  position: relative;
+}
+.carousel__btn{
+  background-image: none;
+  top: auto;
+  bottom: 23px;
+  width: 45px;
+  height: 45px;
+  background: #811750;
+  text-align: center;
+  line-height: 45px;
+}
+
+/* end of swipper  */
+
+.background{
+    width: 1439px;
+}
+
+@media only screen and (max-width: 450px) {
+  .background{
+    margin-bottom: -30%;
+    margin-left: -10%;
+  }
+   .para{
+    background: none;
+   }
+   .pink{
+    font-size: x-small;
+    margin: 0% !important;
+   }
+   .magenta{
+    font-size: x-small;
+    font-weight: 800 !important;
+    color: #132540 !important;
+    text-shadow: 2px 2px #fff !important;
+    margin: 0% !important;
+   }
+   .consult{
+    margin: 0%;
+    box-shadow: 0px 0px 0px !important;
+   }
+   .call{
+    font-size: xx-small !important;
+    font-weight: 100 !important;
+    margin: 0%;
+   }
+   .tell{
+    font-size: small;
+    /* margin-bottom: -10%; */
+   }
 }
 .pink{
     color: #811750;
@@ -225,26 +391,30 @@ body,html{
     color: #132540;
     font-size: x-large;
     font-weight: 600;
+    margin-top: 3%;
 }
 .consult{
     color: #fff;
     background-color: #811750;
-    border-radius: 20px;
-    padding: 1%;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    margin-top: 3%;
+    padding: 3%;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.6);
 }
 .call{
     color: #132540;
     font-size: xx-large;
     font-weight: 800;
+    margin-top: 3%;
 }
 .tell{
     color: #fff;
     background-color: #5FD068;
-    padding: 1%;
+    padding: 4%;
     border: 1px solid #132540;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 10px 10px #132540;
+    margin-top: 3%;
 }
 .tell:hover{
     color: #fff;
@@ -253,12 +423,15 @@ body,html{
     box-shadow: 10px 10px #132540;
 }
 .h2{
+  padding-top: 3%;
   color: #811750;
+  font-weight: 900;
+  text-shadow: 2px 2px #ffff;
 }
 .we{
   margin-left: 20%;
   margin-right: 20%;
-  margin-bottom: 5%;
+  padding-bottom: 5%;
 }
 .we ul{
   list-style-type: none;
@@ -267,9 +440,17 @@ body,html{
   margin-top: 2%;
   border: 1px solid #132540;
   padding: 1%;
-  background-color: #fff;
+  background-color: #ffff;
   box-shadow: 5px 5px #132540;
 }
+
+.what{
+  background-image: url("./Assets/homecare.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
 @media only screen and (max-width: 450px) {
   .we{
     margin-left: 5%;
@@ -362,89 +543,10 @@ body,html{
     font-size: larger;
   }
 }
+
 /* end of home page  */
 
-/* swiperjs  */
-.testimonials{
-  background: #132540;
-  padding: 2rem;
-}
-.testimonials h1{
-  color: #fff;
-  margin: 1%;
-}
-.wrapper{
-  width: 100%;
-}
-.carousel{
-  max-width: 1200px;
-  margin: auto;
-  padding: 0 30px;
-  margin-right: 20%;
-  margin-left: 20%;
-}
-@media only screen and (max-width: 450px) {
-  .testimonials{
-    background: #132540;
-    padding: 2rem;
-  }
-  .carousel{
-    max-width: 1200px;
-    margin: auto;
-    padding: 0 30px;
-  }
-  .carousel .card {
-    color: #101010;
-    text-align: center;
-    padding-left: 5%;
-    padding-right: 5%;
-    margin: 20px 0;
-    font-size: small;
-    font-weight: 600;
-    box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
-    background: #c4c2bc;
-  }
-  .carousel .card .quote{
-    margin-top: 10%;
-  }
-}
-.carousel .card{
-  color: #101010;
-  text-align: center;
-  padding-top: 5%;
-  padding-left: 5%;
-  padding-right: 5%;
-  margin: 20px 0;
-  font-size: small;
-  font-weight: 600;
-  box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
-  background: #c4c2bc;
-}
-.carousel .card:before {
-  content: '';
-  background: url(https://sp-ao.shortpixel.ai/client/q_lossless,ret_img/https://rapidaxis.com/wp-content/themes/rapidaxis/style/../images/quotes.png) no-repeat;
-  position: absolute;
-  font-size: 0;
-  right: 50px;
-  top: -15px;
-  width: 100%;
-  height: 100%;
-  background-position: 100% 0;
-}
-.carousel-inner{
-  position: relative;
-}
-.carousel__btn{
-  background-image: none;
-  top: auto;
-  bottom: 23px;
-  width: 45px;
-  height: 45px;
-  background: #811750;
-  text-align: center;
-  line-height: 45px;
-}
-/* end of swipper  */
+
 
 /* start of services  */
 .head{
@@ -457,6 +559,10 @@ body,html{
     border: 2px solid #fff;
     box-shadow: 0px 10px 10px #811750;
     border-radius: 20px 0px;
+}
+.amb{
+  width: 50%;
+  font-weight: 600;
 }
 @media only screen and (max-width: 450px) {
     .head{
@@ -493,7 +599,14 @@ body,html{
     .comm .pant .rig {
         padding-left: 15%;
     }
+    .none{
+      display: none;
+    }
+    .amb{
+      width: inherit;
+    }
 }
+
 .h4{
     font-weight: 900;
 }
@@ -555,7 +668,7 @@ body,html{
     padding-top: 3%;
     padding-left: 5%;
     padding-bottom: 3%;
-    padding-right: 15%;
+    padding-right: 5%;
     box-shadow: 0px 10px 10px #132540; 
 }
 .rig:hover{
@@ -565,6 +678,9 @@ body,html{
   font-size: xx-large;
   font-weight: 900;
   margin-bottom: 2%;
+}
+.prof{
+  font-weight: 700;
 }
 /* end of service page  */
 
