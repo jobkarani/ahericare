@@ -1,3 +1,4 @@
+// humberger
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menus");
 const navLink = document.querySelectorAll(".nav-links");
@@ -15,27 +16,7 @@ const closeMenu = () => {
 hamburger.addEventListener("click" , mobileMenu)
 navLink.forEach((l) => l.addEventListener("click",closeMenu))
 
-// $(".carousel").owlCarousel({
-//   margin: 20,
-//   loop: true,
-//   autoplay: true,
-//   autoplayTimeout: 2000,
-//   autoplayHoverPause: true,
-//   responsive: {
-//     0:{
-//       items:1,
-//       nav: false
-//     },
-//     600:{
-//       items:2,
-//       nav: false
-//     },
-//     1000:{
-//       items:3,
-//       nav: false
-//     }
-//   }
-// });
+// slideshow
 
 let slideIndex = 0;
 showSlides();
@@ -57,6 +38,7 @@ function showSlides() {
   setTimeout(showSlides, 5000); 
 }
 
+// testimonials
 
 let carouselIndex = 1;
 showCarousels(carouselIndex);
@@ -84,3 +66,20 @@ function showCarousels(n) {
   slides[carouselIndex-1].style.display = "block";  
   dots[carouselIndex-1].className += " active";
 }
+
+//scroll button 
+
+var btn = $('#button');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});

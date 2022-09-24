@@ -11,6 +11,54 @@ body,html{
     padding: 0;
 }
 
+#button {
+  display: inline-block;
+  background-color: #811750 !important;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: -2%;
+  left: 2%;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  /* opacity: 0; */
+  /* visibility: hidden; */
+  z-index: 1000;
+}
+@media only screen and (max-width: 450px) {
+  #button{
+    margin-bottom: 8%;
+  }
+}
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #132540;
+}
+#button:active {
+  background-color: #5FD068;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
+@media (min-width: 500px) {
+  #button {
+    margin: 30px;
+  }
+}
+
+
 /* start of navbar  */
 
   .navbars ul{
