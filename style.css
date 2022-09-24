@@ -350,6 +350,9 @@ body,html{
 }
 
 @media only screen and (max-width: 450px) {
+  .slideshow-container{
+    margin-top: 10%;
+  }
   .background{
     margin-bottom: -30%;
     margin-left: -10%;
@@ -379,7 +382,7 @@ body,html{
    }
    .tell{
     font-size: small;
-    /* margin-bottom: -10%; */
+    box-shadow: 5px 5px #132540 !important;
    }
 }
 .pink{
