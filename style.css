@@ -93,7 +93,7 @@ body,html{
     width: 100%;
   }
   .menu-header{
-    background: #c4c2bc;
+    background-color: #c4c2bc;
   }
   .nav-menu-logos{
     color: #811750;
@@ -236,14 +236,14 @@ body,html{
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #bbb;
+  background-color: #fff;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
 
 .active {
-  background-color: #811750;
+  background-color: rgba(166, 162, 162, 0.8);
 }
 
 /* Fading animation */
