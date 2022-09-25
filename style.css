@@ -11,28 +11,31 @@ body,html{
     padding: 0;
 }
 
-#button {
+#myBtn {
   display: inline-block;
-  background-color: #811750 !important;
+  background-color: #811750;
   width: 50px;
   height: 50px;
   text-align: center;
+  border: 1px solid #fff;
   border-radius: 4px;
   position: fixed;
-  bottom: -2%;
-  left: 2%;
+  bottom: -1%;
+  cursor: pointer;
   transition: background-color .3s, 
     opacity .5s, visibility .5s;
-  /* opacity: 0; */
-  /* visibility: hidden; */
   z-index: 1000;
 }
+
 @media only screen and (max-width: 450px) {
-  #button{
-    margin-bottom: 8%;
+  #myBtn{
+    margin-bottom: 5%;
+    margin-left: 1%;
   }
 }
-#button::after {
+
+
+#myBtn::after {
   content: "\f077";
   font-family: FontAwesome;
   font-weight: normal;
@@ -41,23 +44,18 @@ body,html{
   line-height: 50px;
   color: #fff;
 }
-#button:hover {
+#myBtn:hover {
   cursor: pointer;
   background-color: #132540;
 }
-#button:active {
+#myBtn:active {
   background-color: #5FD068;
 }
-#button.show {
-  opacity: 1;
-  visibility: visible;
-}
 @media (min-width: 500px) {
-  #button {
+  #myBtn {
     margin: 30px;
   }
 }
-
 
 /* start of navbar  */
 
