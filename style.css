@@ -33,8 +33,6 @@ body,html{
     margin-left: 1%;
   }
 }
-
-
 #myBtn::after {
   content: "\f077";
   font-family: FontAwesome;
@@ -47,9 +45,11 @@ body,html{
 #myBtn:hover {
   cursor: pointer;
   background-color: #132540;
+  border: 1px solid #fff !important;
 }
 #myBtn:active {
   background-color: #5FD068;
+  border: 1px solid #fff !important;
 }
 @media (min-width: 500px) {
   #myBtn {
