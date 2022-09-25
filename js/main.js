@@ -69,17 +69,22 @@ function showCarousels(n) {
 
 //scroll button 
 
-var btn = $('#button');
+// Get the button
+let mybutton = document.getElementById("myBtn");
 
-$(window).scroll(function() {
-  if ($(window).scrollTop() > 300) {
-    btn.addClass('show');
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
   } else {
-    btn.removeClass('show');
+    mybutton.style.display = "none";
   }
-});
+}
 
-btn.on('click', function(e) {
-  e.preventDefault();
-  $('html, body').animate({scrollTop:0}, '300');
-});
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
