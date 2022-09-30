@@ -13,7 +13,7 @@ body,html{
 
 #myBtn {
   display: inline-block;
-  background-color: #811750;
+  background: rgba(135, 9, 76, 0.6);
   width: 50px;
   height: 50px;
   text-align: center;
@@ -44,11 +44,11 @@ body,html{
 }
 #myBtn:hover {
   cursor: pointer;
-  background-color: #132540;
+  background: rgba(26, 23, 102, 0.6);
   border: 1px solid #fff !important;
 }
 #myBtn:active {
-  background-color: #5FD068;
+  background: rgba(11, 197, 64, 0.6);
   border: 1px solid #fff !important;
 }
 @media (min-width: 500px) {
@@ -66,7 +66,7 @@ body,html{
     color: white;
   }
   .header {
-    border-bottom: 1px solid #811750;
+    /* border-bottom: 3px solid #fff; */
     background-color: #c4c2bc;
   }
   .navbars {
@@ -119,15 +119,16 @@ body,html{
     color: #811750;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
+
     .one:hover{
         border: 1px solid #fff;
         border-radius: 10px;
-        padding-left: 1%;
-        padding-right: 1%;
     }
+
   .nav-link:hover {
     color: #fff;
   }
+ 
   
   .nav-logos img {
     font-size: 2.1rem;
