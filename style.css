@@ -491,12 +491,12 @@ body,html{
   margin-top: 2%;
   border: 1px solid #132540;
   padding: 1%;
-  background-color: #ffff;
+  background-color: #c4c2bc;
   box-shadow: 5px 5px #132540;
 }
 
 .what{
-  background-image: url("./Assets/homecare.jpeg");
+  background-color: #fff;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
