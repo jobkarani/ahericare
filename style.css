@@ -264,7 +264,7 @@ body,html{
   font-size: 15px;
   position: absolute;
   left: -10%;
-  bottom: 30%;
+  bottom: 20%;
   margin-left: 40%; 
 }
 
@@ -409,7 +409,8 @@ body,html{
   }
   .background{
     margin-bottom: -30%;
-    margin-left: -20%;
+    margin-left: -18%;
+    bottom: 40%;
   }
   .slideimg{
     width:100%;
